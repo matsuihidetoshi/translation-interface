@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.userWords": [
+    "fargate",
+    "oidc",
+    "certificatemanager",
+    "elasti",
+    "elasticloadbalancingv",
+    "ulimits",
+    "nofile",
+    "imagedefinitions"
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
