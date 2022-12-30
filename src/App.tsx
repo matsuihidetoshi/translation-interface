@@ -8,20 +8,9 @@ import aws_exports from './aws-exports'
 
 Amplify.configure(aws_exports)
 
-const theme = {
-  name: 'cra-my-theme',
-  tokens: {
-    colors: {
-      font: {
-        primary: { value: '#008080' },
-      },
-    },
-  },
-}
-
 function App() {
   return (
-    <AmplifyProvider theme={theme}>
+    <AmplifyProvider>
       <Authenticator>
         {({ signOut, user }) => (
           <Flex
