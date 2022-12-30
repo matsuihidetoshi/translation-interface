@@ -1,10 +1,10 @@
-import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 import { Amplify } from 'aws-amplify'
 import { AmplifyProvider, Authenticator, Button, Flex, Image, Text, View } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css'
 import aws_exports from './aws-exports'
+import Translation from './translation'
 
 Amplify.configure(aws_exports)
 
@@ -35,11 +35,7 @@ function App() {
               </View>
             )}
 
-            <View width="100%">
-              <Text>
-                Edit <code>src/App.tsx</code> and save to reload.
-              </Text>
-            </View>
+            <Translation language="japanese"></Translation>
           </Flex>
         )}
       </Authenticator>
