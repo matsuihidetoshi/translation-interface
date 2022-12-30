@@ -35,7 +35,7 @@ function App() {
               </View>
             )}
 
-            <Translation language="japanese"></Translation>
+            <Translation></Translation>
           </Flex>
         )}
       </Authenticator>
